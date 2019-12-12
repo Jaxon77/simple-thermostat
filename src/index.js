@@ -5,7 +5,7 @@ import styles from './styles'
 import formatNumber from './formatNumber'
 import getEntityType from './getEntityType'
 
-const DEBOUNCE_TIMEOUT = 1000
+const DEBOUNCE_TIMEOUT = 5000
 const STEP_SIZE = 0.5
 const DECIMALS = 1
 const UPDATE_PROPS = ['entity', 'sensors', '_values', 'modes']
